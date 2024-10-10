@@ -1,0 +1,10 @@
+[package]
+name = "rburn"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+burn = { version = "^0.10", features = ["wgpu", "dataset-sqlite", "train"] }
+serde = "^1.0"
